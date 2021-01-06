@@ -379,7 +379,7 @@ Regen PotionEffect false
 ReverseStep Motion 1.0
 SafeWalk AirSafe true
 Scaffold Mode Normal
-Scaffold MaxDelay 0
+Scaffold MaxDelay 10
 Scaffold MinDelay 0
 Scaffold PlaceableDelay true
 Scaffold AutoBlock Spoof
@@ -390,7 +390,7 @@ Scaffold Down false
 Scaffold PlaceTiming Pre
 Scaffold Eagle EdgeDistance
 Scaffold BlocksToEagle 2
-Scaffold EagleEdgeDistance 0.1
+Scaffold EagleEdgeDistance 0.08
 Scaffold ExpandLength 1
 Scaffold RotationStrafe false
 Scaffold RotationMode Normal
@@ -411,7 +411,7 @@ Scaffold ZitterStrength 0.072
 Scaffold Timer 0.9
 Scaffold SpeedModifier 0.79
 Scaffold Slow true
-Scaffold SlowSpeed 0.68
+Scaffold SlowSpeed 0.67
 Scaffold SameY false
 Scaffold SafeWalk false
 Scaffold AirSafe false
