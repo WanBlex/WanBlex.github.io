@@ -297,7 +297,7 @@ KillAura MaxCPS 15
 KillAura MinCPS 13
 KillAura HurtTime 10
 KillAura Range 3.3
-KillAura ThroughWallsRange 2.3
+KillAura ThroughWallsRange 1.0
 KillAura RangeSprintReducement 0.0
 KillAura Priority Distance
 KillAura TargetMode Switch
@@ -562,4 +562,4 @@ Zoot Fire true
 Zoot NoAir false
 chat Attention &3Scaffold has a maximum of 32 blocks.
 chat &9Config &9by &l&8WanBlex
-chat &9Latest &9Update &l05.01.2021
+chat &9Latest &9Update &l06.01.2021
