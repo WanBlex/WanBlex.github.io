@@ -316,7 +316,7 @@ KillAura SilentRotation true
 KillAura Strafe Off
 KillAura RandomCenter false
 KillAura Outborder true
-KillAura FOV 106.43
+KillAura FOV 105
 KillAura Predict true
 KillAura MaxPredictSize 1.0
 KillAura MinPredictSize 0.5
