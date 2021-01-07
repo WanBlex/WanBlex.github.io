@@ -316,7 +316,7 @@ KillAura SilentRotation true
 KillAura Strafe Off
 KillAura RandomCenter false
 KillAura Outborder true
-KillAura FOV 105
+KillAura FOV 105.0
 KillAura Predict true
 KillAura MaxPredictSize 1.0
 KillAura MinPredictSize 0.5
@@ -382,14 +382,14 @@ Scaffold Mode Normal
 Scaffold MaxDelay 10
 Scaffold MinDelay 0
 Scaffold PlaceableDelay true
-Scaffold AutoBlock Spoof
+Scaffold AutoBlock Off
 Scaffold Sprint false
 Scaffold Swing true
 Scaffold Search true
 Scaffold Down false
 Scaffold PlaceTiming Pre
 Scaffold Eagle EdgeDistance
-Scaffold BlocksToEagle 2
+Scaffold BlocksToEagle 3
 Scaffold EagleEdgeDistance 0.08
 Scaffold ExpandLength 1
 Scaffold RotationStrafe false
@@ -560,6 +560,7 @@ WaterSpeed Speed 1.5
 Zoot BadEffects true
 Zoot Fire true
 Zoot NoAir false
+
 chat Attention &3Scaffold has a maximum of 32 blocks.
 chat &9Config &9by &l&8WanBlex
 chat &9Latest &9Update &l06.01.2021
