@@ -1,15 +1,73 @@
 <html>
     <head>
-        <link rel="stylesheet" href="css/style.css">
+        <style>
+            .gray{background-color: gray;}
+            table{
+                border:2px solid black;
+
+            }
+        </style>
     </head>
-<body>
-    <header>
-        <a href="Amongus.html" class="headertext">Among US</a>
-        <a href="CSGO.html" class="headertext">CS:GO</a>
-        <a href="Fort.html" class="headertext">Fortnite</a>
-    </header>
-    <main>
-        <h1 align="center">Welcom</h1>
-    </main>
-</body>
+    <body>
+        <h1 id="text"></h1>
+        <table id="list">
+            <tr>
+            <th>№</th>
+            <th>Ім'я Прізвище</th>
+            <th>Відправити листа</th>
+            </tr>
+            </table>
+
+    </body>
+ <script>
+   const users = [
+	"Андрусишин Олег",
+	"Балицький Олексій",
+	"Барановський Ігор",
+	"Бей Тетяна",
+	"Білас Всеволод",
+	"Білоус Андрій",
+	"Бордун Галина",
+	"Буба Євген",
+	"Вантух Володимир",
+	"Васьків Роман",
+	"Вервега Тарас",
+	"Візняк Юрій",
+	"Гагалюк Богдан",
+	"Ганущин Олександр",
+	"Гичка Михайло",
+	"Гірняк Володимир",
+	"Голуб Юрій",
+	"Грабінський Ігор",
+	"Грицик Ольга",
+	"Гудима Юрій",
+	"Дворянин Парасковія",
+	"Дейнека Анатолій",
+	"Демчина Роман",
+	"Дзюдзь Михайло"
+];
+let number=0;
+let gray="";
+let checked="";
+let name=prompt("Введіть імя користувача якому треба відправити лист");
+let count=0  
+
+for(let i=0;i<users.length;i++){
+    number=i+1;
+    if(number%2==0){
+    gray="gray";
+    }
+
+    else{gray=''}
+    if(users[i].includes("Юрій")){
+        checked="checked"
+    }
+    else{checked=''}
+    let elem=document.getElementById("list").innerHTML+="<tr><td class="+gray+">"+number+"</td><td class="+gray+">"+users[i]+"</td><td class="+gray+"><input type='checkbox'"+checked+">"
+    
+    if(users[i].includes(name)){
+        count++
+    }}
+    document.getElementById("text").innerHTML="З імям "+name+" є "+count+" людей"
+</script>
 </html>
