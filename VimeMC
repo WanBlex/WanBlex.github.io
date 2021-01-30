@@ -231,7 +231,7 @@ FastStairs LongJump false
 FastUse Mode Custom
 FastUse NoMove true
 FastUse CustomDelay 12
-FastUse CustomSpeed 1
+FastUse CustomSpeed 2
 FastUse CustomTimer 0.9
 Fly Mode Vanilla
 Fly VanillaSpeed 1.0
@@ -249,8 +249,8 @@ Fly NeruxVace-Ticks 8
 Fly Redesky-Height 4.0
 Fly Mark true
 Fucker Block 26
-Fucker ThroughWalls Around
-Fucker Range 5.0
+Fucker ThroughWalls None
+Fucker Range 4.5
 Fucker Action Destroy
 Fucker Instant false
 Fucker SwitchDelay 5
@@ -293,9 +293,9 @@ ItemTeleport ResetAfterTP true
 ItemTeleport Button Middle
 KeepAlive Mode /heal
 Kick Mode Quit
-KillAura MaxCPS 15
-KillAura MinCPS 13
-KillAura HurtTime 10
+KillAura MaxCPS 18
+KillAura MinCPS 15
+KillAura HurtTime 9
 KillAura Range 3.3
 KillAura ThroughWallsRange 1.0
 KillAura RangeSprintReducement 0.0
@@ -316,7 +316,7 @@ KillAura SilentRotation true
 KillAura Strafe Off
 KillAura RandomCenter false
 KillAura Outborder true
-KillAura FOV 105.0
+KillAura FOV 80.0
 KillAura Predict true
 KillAura MaxPredictSize 1.0
 KillAura MinPredictSize 0.5
@@ -389,17 +389,17 @@ Scaffold Search true
 Scaffold Down false
 Scaffold PlaceTiming Pre
 Scaffold Eagle EdgeDistance
-Scaffold BlocksToEagle 3
-Scaffold EagleEdgeDistance 0.12
+Scaffold BlocksToEagle 4
+Scaffold EagleEdgeDistance 0.06
 Scaffold ExpandLength 1
-Scaffold RotationStrafe false
-Scaffold RotationMode Static
+Scaffold RotationStrafe true
+Scaffold RotationMode StaticYaw
 Scaffold SilentRotation true
 Scaffold KeepRotation false
 Scaffold KeepRotationLength 0
 Scaffold StaticPitchOffSet 86.0
-Scaffold StaticYawOffSet 0.0
-Scaffold xzRange 0.1
+Scaffold StaticYawOffSet 23.0
+Scaffold xzRange 2.0
 Scaffold yRange 0.1
 Scaffold MinDiff 0.0
 Scaffold SearchAccuracy 16
@@ -412,7 +412,7 @@ Scaffold ZitterStrength 0.072
 Scaffold Timer 0.9
 Scaffold SpeedModifier 0.79
 Scaffold Slow true
-Scaffold SlowSpeed 0.68
+Scaffold SlowSpeed 0.69
 Scaffold SameY false
 Scaffold SafeWalk false
 Scaffold AirSafe false
@@ -562,4 +562,4 @@ Zoot Fire true
 Zoot NoAir false
 chat Attention &3Scaffold has a maximum of 48 blocks.
 chat &9Config &9by &l&8WanBlex
-chat &9Latest &9Update &l26.01.2021
+chat &9Latest &9Update &l30.01.2021
