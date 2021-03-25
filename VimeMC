@@ -168,7 +168,7 @@ Scaffold Down false
 Scaffold PlaceTiming Post
 Scaffold Eagle Normal
 Scaffold BlocksToEagle 0
-Scaffold EagleEdgeDistance 0.01
+Scaffold EagleEdgeDistance 0.0
 Scaffold ExpandLength 1
 Scaffold RotationStrafe true
 Scaffold RotationMode StaticYaw
@@ -185,12 +185,12 @@ Scaffold MaxTurnSpeed 26.8
 Scaffold MinTurnSpeed 26.8
 Scaffold Zitter false
 Scaffold ZitterMode Smooth
-Scaffold ZitterSpeed 0
-Scaffold ZitterStrength 0
-Scaffold Timer 1
-Scaffold SpeedModifier 0
+Scaffold ZitterSpeed 0.0
+Scaffold ZitterStrength 0.0
+Scaffold Timer 1.0
+Scaffold SpeedModifier 0.25
 Scaffold Slow false
-Scaffold SlowSpeed 0.80
+Scaffold SlowSpeed 0.8
 Scaffold SameY false
 Scaffold SafeWalk false
 Scaffold AirSafe false
