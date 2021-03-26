@@ -66,6 +66,7 @@ InventoryCleaner SortSlot-9 Axe
 InventoryMove Undetectable false
 InventoryMove AACAdditionPro true
 InventoryMove NoMoveClicks false
+InventoryMove toggle true
 ItemTeleport Mode New
 ItemTeleport ResetAfterTP true
 ItemTeleport Button Right
@@ -192,6 +193,7 @@ Sprint CheckServerSide false
 Sprint CheckServerSideOnlyGround false
 Sprint toggle true
 SuperKnockback HurtTime 10
+Targets Mobs true
 Teams ScoreboardTeam false
 Teams Color true
 Teams GommeSW false
