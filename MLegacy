@@ -119,6 +119,7 @@ NoSlow Packet true
 NoSlow Soulsand false
 NoSlow LiquidPush false
 NoSlow toggle true
+NoFall toggle false
 NoSlowBreak Air true
 NoSlowBreak Water false
 NoSlowBreak toggle true
