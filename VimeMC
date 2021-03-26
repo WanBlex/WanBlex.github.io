@@ -149,6 +149,7 @@ NoSlow BowStrafeMultiplier 0.6
 NoSlow Packet false
 NoSlow Soulsand true
 NoSlow LiquidPush true
+NoSlow toggle false
 NoFall toggle false
 Reach CombatReach 7.5
 Reach BuildReach 7.5
