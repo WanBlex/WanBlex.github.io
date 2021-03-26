@@ -30,7 +30,7 @@ ChestStealer AutoCloseMaxDelay 0
 ChestStealer AutoCloseMinDelay 0
 ChestStealer CloseOnFull false
 ChestStealer ChestTitle false
-Criticals Mode NcpPacket
+Criticals Mode LowJump
 Criticals Delay 0
 Criticals HurtTime 0
 Criticals toggle true
@@ -115,9 +115,9 @@ NoSlow ConsumeForwardMultiplier 1.0
 NoSlow ConsumeStrafeMultiplier 1.0
 NoSlow BowForwardMultiplier 1.0
 NoSlow BowStrafeMultiplier 1.0
-NoSlow Packet false
-NoSlow Soulsand true
-NoSlow LiquidPush true
+NoSlow Packet true
+NoSlow Soulsand false
+NoSlow LiquidPush false
 NoSlow toggle true
 NoSlowBreak Air true
 NoSlowBreak Water false
@@ -202,7 +202,7 @@ Tower Rotations true
 Tower KeepRotation false
 Tower OnJump false
 Tower PlaceTiming Post
-Tower Timer 1.3
+Tower Timer 1.55
 Tower JumpMotion 0.5
 Tower JumpDelay 0
 Tower ConstantMotion 0.4
