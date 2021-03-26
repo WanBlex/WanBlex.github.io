@@ -27,7 +27,6 @@ AutoArmor NoMove false
 AutoArmor ItemDelay 200
 AutoArmor Hotbar true
 AutoArmor toggle true
-AutoRespawn Instant true
 AutoSoup Health 19.0
 AutoSoup Delay 0
 AutoSoup OpenInv true
@@ -45,6 +44,7 @@ ChestAura ThroughWalls true
 ChestAura VisualSwing true
 ChestAura Chest 54
 ChestAura Rotations true
+ChestAura toggle false
 ChestStealer MaxDelay 155
 ChestStealer MinDelay 155
 ChestStealer DelayOnFirst true
@@ -56,6 +56,7 @@ ChestStealer AutoCloseMaxDelay 0
 ChestStealer AutoCloseMinDelay 0
 ChestStealer CloseOnFull false
 ChestStealer ChestTitle false
+ChestStealer toggle false
 Criticals Mode Hop
 Criticals Delay 0
 Criticals HurtTime 10
