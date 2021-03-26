@@ -46,13 +46,13 @@ BowAimbot PredictSize 5.0
 BowAimbot Priority Health
 BowAimbot Mark true
 ChestAura Range 5.0
-ChestAura Delay 100
+ChestAura Delay 95
 ChestAura ThroughWalls true
 ChestAura VisualSwing true
 ChestAura Chest 54
 ChestAura Rotations true
-ChestStealer MaxDelay 0
-ChestStealer MinDelay 0
+ChestStealer MaxDelay 155
+ChestStealer MinDelay 155
 ChestStealer DelayOnFirst true
 ChestStealer TakeRandomized false
 ChestStealer OnlyItems false
