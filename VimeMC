@@ -197,6 +197,7 @@ Sprint Blindness true
 Sprint Food true
 Sprint CheckServerSide false
 Sprint CheckServerSideOnlyGround false
+Sprint toggle false
 Teams ScoreboardTeam true
 Teams Color true
 Teams GommeSW false
