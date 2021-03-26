@@ -164,18 +164,6 @@ Scaffold SafeWalk true
 Scaffold AirSafe false
 Scaffold Counter true
 Scaffold Mark true
-ServerCrasher Mode MassiveChunkLoading
-SkinDerp Delay 0
-SkinDerp Hat true
-SkinDerp Jacket true
-SkinDerp LeftPants true
-SkinDerp RightPants true
-SkinDerp LeftSleeve true
-SkinDerp RightSleeve true
-SlimeJump Motion 1.0
-SlimeJump Mode Add
-Sneak Mode Switch
-Sneak StopMove true
 Speed Mode AAC5BHop
 Speed CustomSpeed 0.2
 Speed CustomY 0.0
@@ -192,8 +180,6 @@ Sprint Food flase
 Sprint CheckServerSide false
 Sprint CheckServerSideOnlyGround false
 Sprint toggle true
-SuperKnockback HurtTime 10
-Targets Mobs true
 Teams ScoreboardTeam false
 Teams Color true
 Teams GommeSW false
