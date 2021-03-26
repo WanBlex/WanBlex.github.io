@@ -1,3 +1,4 @@
+AntiBot toggle false
 AutoArmor MinDelay 90
 AutoArmor MaxDelay 90
 AutoArmor InvOpen false
