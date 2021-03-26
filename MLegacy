@@ -1,18 +1,3 @@
-Aimbot Range 100.0
-Aimbot TurnSpeed 180.0
-Aimbot FOV 180.0
-Aimbot Center false
-Aimbot Lock false
-Aimbot OnClick false
-Aimbot Jitter false
-AntiAFK Mode Custom
-AntiAFK SwingDelay 100
-AntiAFK RotationDelay 100
-AntiAFK RotationAngle 1.0
-AntiAFK Jump true
-AntiAFK Move false
-AntiAFK Rotate false
-AntiAFK Swing false
 AutoArmor MinDelay 90
 AutoArmor MaxDelay 90
 AutoArmor InvOpen false
@@ -48,6 +33,7 @@ Criticals Mode NcpPacket
 Criticals Delay 0
 Criticals HurtTime 0
 Criticals toggle true
+FastUse toggle false
 Fucker Block 26
 Fucker ThroughWalls None
 Fucker Range 5.15
