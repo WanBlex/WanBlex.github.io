@@ -141,8 +141,8 @@ KillAura LimitedMultiTargets 0
 KillAura Mark true
 KillAura FakeSharp false
 KillAura toggle true
-LongJump Mode NCP
-LongJump NCPBoost 10.0
+LongJump Mode Redesky
+LongJump NCPBoost 0
 LongJump AutoJump true
 NoFall Mode SpoofGround
 NoFall MinMLGHeight 5.0
@@ -155,8 +155,8 @@ NoSlow BowForwardMultiplier 1.0
 NoSlow BowStrafeMultiplier 1.0
 NoSlow Packet true
 NoSlow Soulsand false
-NoSlow LiquidPush true
-NoSlow toggle false
+NoSlow LiquidPush false
+NoSlow toggle true
 NoSlowBreak Air true
 NoSlowBreak Water false
 NoRotateSet toggle false
