@@ -9,10 +9,11 @@ AutoArmor Hotbar true
 AutoArmor toggle true
 BowAimbot Silent true
 BowAimbot Predict true
-BowAimbot ThroughWalls true
+BowAimbot ThroughWalls false
 BowAimbot PredictSize 5.0
-BowAimbot Priority Health
+BowAimbot Priority Distance
 BowAimbot Mark true
+BowAimbot toggle true
 ChestAura Range 4.85
 ChestAura Delay 100
 ChestAura ThroughWalls true
@@ -34,7 +35,6 @@ Criticals Mode LowJump
 Criticals Delay 0
 Criticals HurtTime 0
 Criticals toggle true
-FastUse toggle false
 Fucker Block 26
 Fucker ThroughWalls None
 Fucker Range 5.15
@@ -45,6 +45,11 @@ Fucker Swing true
 Fucker Rotations false
 Fucker Surroundings true
 Fucker NoHit true
+FastUse Mode Custom
+FastUse NoMove false
+FastUse CustomDelay 0
+FastUse CustomSpeed 1
+FastUse CustomTimer 0.9
 InventoryCleaner MinDelay 50
 InventoryCleaner InvOpen true
 InventoryCleaner SimulateInventory true
@@ -67,10 +72,6 @@ InventoryMove Undetectable false
 InventoryMove AACAdditionPro true
 InventoryMove NoMoveClicks false
 InventoryMove toggle true
-ItemTeleport Mode New
-ItemTeleport ResetAfterTP true
-ItemTeleport Button Right
-KeepAlive Mode /heal
 KillAura MaxCPS 18
 KillAura MinCPS 15
 KillAura HurtTime 8
@@ -91,7 +92,7 @@ KillAura AAC true
 KillAura MaxTurnSpeed 180.0
 KillAura MinTurnSpeed 180.0
 KillAura SilentRotation true
-KillAura Strafe Silent
+KillAura Strafe Off
 KillAura RandomCenter true
 KillAura Outborder false
 KillAura FOV 180.0
@@ -108,8 +109,6 @@ KillAura FakeSharp false
 LongJump Mode NCP
 LongJump NCPBoost 2.2
 LongJump AutoJump true
-NoPitchLimit toggle false
-NoRotateSet toggle false
 NoSlow BlockForwardMultiplier 1.0
 NoSlow BlockStrafeMultiplier 1.0
 NoSlow ConsumeForwardMultiplier 1.0
@@ -124,11 +123,13 @@ NoFall toggle false
 NoSlowBreak Air true
 NoSlowBreak Water false
 NoSlowBreak toggle true
+NoRotateSet toggle false
+NoPitchLimit toggle false
 Scaffold Mode Normal
 Scaffold MaxDelay 0
 Scaffold MinDelay 0
 Scaffold PlaceableDelay true
-Scaffold AutoBlock Spoof
+Scaffold AutoBlock Switch
 Scaffold Sprint false
 Scaffold Swing true
 Scaffold Search true
@@ -138,13 +139,13 @@ Scaffold Eagle Off
 Scaffold BlocksToEagle 0
 Scaffold EagleEdgeDistance 0.0
 Scaffold ExpandLength 1
-Scaffold RotationStrafe false
-Scaffold RotationMode Normal
+Scaffold RotationStrafe true
+Scaffold RotationMode StaticYaw
 Scaffold SilentRotation true
-Scaffold KeepRotation true
-Scaffold KeepRotationLength 2
+Scaffold KeepRotation false
+Scaffold KeepRotationLength 0
 Scaffold StaticPitchOffSet 0.0
-Scaffold StaticYawOffSet 0.0
+Scaffold StaticYawOffSet 30.0
 Scaffold xzRange 0.1
 Scaffold yRange 0.1
 Scaffold MinDiff 0.0
@@ -155,7 +156,7 @@ Scaffold Zitter false
 Scaffold ZitterMode Smooth
 Scaffold ZitterSpeed 0.0
 Scaffold ZitterStrength 0.0
-Scaffold Timer 1.1
+Scaffold Timer 1.15
 Scaffold SpeedModifier 0.5
 Scaffold Slow false
 Scaffold SlowSpeed 0.8
@@ -201,8 +202,6 @@ Tower TeleportDelay 0
 Tower TeleportGround false
 Tower TeleportNoMotion false
 Tower Counter true
-Trigger MaxCPS 12
-Trigger MinCPS 8
 Velocity Horizontal 0.0
 Velocity Vertical 0.0
 Velocity Mode Simple
@@ -212,4 +211,4 @@ Velocity AACPushXZReducer 1.0
 Velocity AACPushYReducer true
 Velocity toggle true
 chat &9Config &9by &l&8WanBlex
-chat &9Latest &9Update &l26.03.2021
+chat &9Latest &9Update &l28.03.2021
