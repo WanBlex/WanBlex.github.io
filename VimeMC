@@ -18,7 +18,7 @@ AntiBot DuplicateInWorld true
 AntiBot DuplicateInTab true
 AntiBot AlwaysInRadius false
 AntiBot AlwaysInRadiusBlocks 5.0
-AntiBot toggle true
+AntiBot toggle false
 AutoArmor MinDelay 103
 AutoArmor MaxDelay 117
 AutoArmor InvOpen false
@@ -88,6 +88,7 @@ Fly MineplexSpeed 5.05
 Fly NeruxVace-Ticks 8
 Fly Redesky-Height 4.0
 Fly Mark true
+Fly toggle false
 Fucker Block 26
 Fucker ThroughWalls Around
 Fucker Range 4.9
@@ -200,6 +201,9 @@ Sprint Food true
 Sprint CheckServerSide false
 Sprint CheckServerSideOnlyGround false
 Sprint toggle false
+Speed toggle false
+Sneak toggle false
+Step toggle false
 Teams ScoreboardTeam true
 Teams Color true
 Teams GommeSW false
